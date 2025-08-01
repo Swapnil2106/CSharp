@@ -57,6 +57,15 @@ namespace ConsoleApp1.Classes
             {
                 Console.WriteLine(string.Join(", ", subArray));
             }
+
+            // 8. Passing arrays to functions
+            int[] arrayToPass = { 10, 20, 30 };
+            PrintArray(arrayToPass);
+        }
+
+        void PrintArray(int[] arr)
+        {
+            Console.WriteLine("Array passed to function: " + string.Join(", ", arr));
         }
     }
 }
