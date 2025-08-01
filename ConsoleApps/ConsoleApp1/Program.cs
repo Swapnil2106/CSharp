@@ -6,6 +6,15 @@
         {
             //1. This is how you print Hello World in C# on the console.
             Console.WriteLine("Hello, World!");
+
+            //2. This is you add a single line comment in C#.
+            // This is a single line comment in C#
+
+            //3. This is how you add a multi-line comment in C#.
+            /*
+             * This is a multi-line comment in C#
+             * It can span multiple lines
+             */
         }
     }
 }
