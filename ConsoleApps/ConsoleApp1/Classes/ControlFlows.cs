@@ -60,6 +60,35 @@ namespace ConsoleApp1.Classes
                 Console.WriteLine($"Do-While loop iteration: {k}");
                 k++;
             } while (k < 5);
+
+            // 6. Foreach loop
+            string[] fruits = { "Apple", "Banana", "Cherry" };
+            foreach (string fruit in fruits)
+            {
+                Console.WriteLine($"Fruit: {fruit}");
+            }
+
+            // 7. break statement 
+            for (int l = 0; l < 10; l++)
+            {
+                if (l == 5)
+                {
+                    Console.WriteLine("Breaking the loop at 5");
+                    break; // Exits the loop when l is 5
+                }
+                Console.WriteLine($"Loop iteration: {l}");
+            }
+
+            // 8. continue statement
+            for (int m = 0; m < 10; m++)
+            {
+                if (m % 2 == 0)
+                {
+                    Console.WriteLine($"Skipping even number: {m}");
+                    continue; // Skips the rest of the loop body for even numbers
+                }
+                Console.WriteLine($"Odd number: {m}");
+            }
         }
     }
 }
