@@ -15,6 +15,11 @@
              * This is a multi-line comment in C#
              * It can span multiple lines
              */
+
+            //4. This is how you declare a variable in C#.
+            //Refer the Variables class for more details.
+            var variables = new Classes.Variables();
+            variables.PrintVariables();
         }
     }
 }
