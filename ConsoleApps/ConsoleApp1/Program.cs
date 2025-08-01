@@ -20,6 +20,11 @@
             //Refer the Variables class for more details.
             var variables = new Classes.Variables();
             variables.PrintVariables();
+
+            //5. This is how you use a string in C#.
+            //Refer the StringClass class for more details.
+            var stringClass = new Classes.StringClass();
+            stringClass.PrintStringMethods();
         }
     }
 }
