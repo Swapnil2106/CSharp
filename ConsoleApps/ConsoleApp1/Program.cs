@@ -30,6 +30,11 @@
             //Refer the ControlFlows class for more details.
             var controlFlows = new Classes.ControlFlows();
             controlFlows.PrintControlFlows();
+
+            //7. This is how you use functions in C#.
+            //Refer the FunctionClass class for more details.
+            var functionClass = new Classes.FunctionClass();
+            functionClass.PrintFunctionExamples();
         }
     }
 }
