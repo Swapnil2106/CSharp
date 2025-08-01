@@ -60,3 +60,4 @@ namespace ConsoleApp1.Classes
             return (number1 + number2) * multiplier;
         }
     }
+}
