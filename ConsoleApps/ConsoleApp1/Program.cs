@@ -35,6 +35,11 @@
             //Refer the FunctionClass class for more details.
             var functionClass = new Classes.FunctionClass();
             functionClass.PrintFunctionExamples();
+
+            //8. This is how you use Arrays in C#.
+            // Refer the Arraysclass class for more details.
+            var arraysClass = new Classes.ArraysClass();
+            arraysClass.PrintArrayExamples();
         }
     }
 }
