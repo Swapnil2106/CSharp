@@ -25,6 +25,11 @@
             //Refer the StringClass class for more details.
             var stringClass = new Classes.StringClass();
             stringClass.PrintStringMethods();
+
+            //6. This is how you use control flows in C#.
+            //Refer the ControlFlows class for more details.
+            var controlFlows = new Classes.ControlFlows();
+            controlFlows.PrintControlFlows();
         }
     }
 }
